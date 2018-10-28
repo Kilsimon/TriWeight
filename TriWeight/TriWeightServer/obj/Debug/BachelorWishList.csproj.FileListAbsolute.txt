@@ -1,0 +1,6 @@
+C:\Users\Simon Skaarup\Desktop\Skole\6 Semester\Bachelor\New folder\BachelorWishList\bin\Debug\Configuration.xml
+C:\Users\Simon Skaarup\Desktop\Skole\6 Semester\Bachelor\New folder\BachelorWishList\obj\Debug\BachelorWishList.csprojResolveAssemblyReference.cache
+C:\Users\Simon Skaarup\Desktop\Skole\6 Semester\Bachelor\New folder\BachelorWishList\bin\Debug\BachelorWishList.dll
+C:\Users\Simon Skaarup\Desktop\Skole\6 Semester\Bachelor\New folder\BachelorWishList\bin\Debug\BachelorWishList.pdb
+C:\Users\Simon Skaarup\Desktop\Skole\6 Semester\Bachelor\New folder\BachelorWishList\obj\Debug\BachelorWishList.dll
+C:\Users\Simon Skaarup\Desktop\Skole\6 Semester\Bachelor\New folder\BachelorWishList\obj\Debug\BachelorWishList.pdb

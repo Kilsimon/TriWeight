@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Configuration>
+  <Database type="SQL" connectionstring="Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Wishlist;Data Source=MORTEN-WIN-08\SQLEXPRESS"/>
+  <Data path="C:\Udvikling\c# 2013\Wishlist\Data"/>
+  <Smtp smtpserver="smtp.mail.dk" smtpport="25" sendername="Wishlist" senderemail="wishlist@koisoft.dk"/>
+</Configuration>

@@ -1,0 +1,13 @@
+C:\Udvikling\KoiSoft\Wishlist\WApp\bin\Debug\Configuration.xml
+C:\Udvikling\KoiSoft\Wishlist\WApp\bin\Debug\WApp.dll
+C:\Udvikling\KoiSoft\Wishlist\WApp\bin\Debug\WApp.pdb
+C:\Udvikling\KoiSoft\Wishlist\WApp\obj\Debug\WApp.csprojResolveAssemblyReference.cache
+C:\Udvikling\KoiSoft\Wishlist\WApp\obj\Debug\WApp.dll
+C:\Udvikling\KoiSoft\Wishlist\WApp\obj\Debug\WApp.pdb
+C:\Udvikling\KoiSoft\Wishlist\WApp\obj\Debug\WApp.csproj.CoreCompileInputs.cache
+C:\Users\Simon Skaarup\Desktop\New folder\WApp\bin\Debug\Configuration.xml
+C:\Users\Simon Skaarup\Desktop\New folder\WApp\bin\Debug\WApp.dll
+C:\Users\Simon Skaarup\Desktop\New folder\WApp\bin\Debug\WApp.pdb
+C:\Users\Simon Skaarup\Desktop\New folder\WApp\obj\Debug\WApp.csprojResolveAssemblyReference.cache
+C:\Users\Simon Skaarup\Desktop\New folder\WApp\obj\Debug\WApp.dll
+C:\Users\Simon Skaarup\Desktop\New folder\WApp\obj\Debug\WApp.pdb

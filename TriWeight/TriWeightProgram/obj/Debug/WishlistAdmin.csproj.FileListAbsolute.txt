@@ -1,0 +1,40 @@
+C:\Udvikling\KoiSoft\Wishlist\WishListAdmin\bin\Debug\Configuration.xml
+C:\Udvikling\KoiSoft\Wishlist\WishListAdmin\bin\Debug\Wishlist.exe.config
+C:\Udvikling\KoiSoft\Wishlist\WishListAdmin\bin\Debug\Wishlist.exe
+C:\Udvikling\KoiSoft\Wishlist\WishListAdmin\bin\Debug\Wishlist.pdb
+C:\Udvikling\KoiSoft\Wishlist\WishListAdmin\bin\Debug\WApp.dll
+C:\Udvikling\KoiSoft\Wishlist\WishListAdmin\bin\Debug\WApp.pdb
+C:\Udvikling\KoiSoft\Wishlist\WishListAdmin\obj\Debug\WishlistAdmin.csprojResolveAssemblyReference.cache
+C:\Udvikling\KoiSoft\Wishlist\WishListAdmin\obj\Debug\Wishlist.BrowserForm.resources
+C:\Udvikling\KoiSoft\Wishlist\WishListAdmin\obj\Debug\Wishlist.MainForm.resources
+C:\Udvikling\KoiSoft\Wishlist\WishListAdmin\obj\Debug\Wishlist.Properties.Resources.resources
+C:\Udvikling\KoiSoft\Wishlist\WishListAdmin\obj\Debug\WishlistAdmin.csproj.GenerateResource.Cache
+C:\Udvikling\KoiSoft\Wishlist\WishListAdmin\obj\Debug\Wishlist.exe
+C:\Udvikling\KoiSoft\Wishlist\WishListAdmin\obj\Debug\Wishlist.pdb
+C:\Udvikling\KoiSoft\Wishlist\WishListAdmin\obj\Debug\WishlistAdmin.csproj.CoreCompileInputs.cache
+C:\Users\Simon Skaarup\Desktop\New folder\WishListAdmin\bin\Debug\Configuration.xml
+C:\Users\Simon Skaarup\Desktop\New folder\WishListAdmin\bin\Debug\Wishlist.exe.config
+C:\Users\Simon Skaarup\Desktop\New folder\WishListAdmin\bin\Debug\Wishlist.exe
+C:\Users\Simon Skaarup\Desktop\New folder\WishListAdmin\bin\Debug\Wishlist.pdb
+C:\Users\Simon Skaarup\Desktop\New folder\WishListAdmin\bin\Debug\WApp.dll
+C:\Users\Simon Skaarup\Desktop\New folder\WishListAdmin\bin\Debug\WApp.pdb
+C:\Users\Simon Skaarup\Desktop\New folder\WishListAdmin\obj\Debug\WishlistAdmin.csprojResolveAssemblyReference.cache
+C:\Users\Simon Skaarup\Desktop\New folder\WishListAdmin\obj\Debug\Wishlist.BrowserForm.resources
+C:\Users\Simon Skaarup\Desktop\New folder\WishListAdmin\obj\Debug\Wishlist.MainForm.resources
+C:\Users\Simon Skaarup\Desktop\New folder\WishListAdmin\obj\Debug\Wishlist.Properties.Resources.resources
+C:\Users\Simon Skaarup\Desktop\New folder\WishListAdmin\obj\Debug\WishlistAdmin.csproj.GenerateResource.Cache
+C:\Users\Simon Skaarup\Desktop\New folder\WishListAdmin\obj\Debug\Wishlist.exe
+C:\Users\Simon Skaarup\Desktop\New folder\WishListAdmin\obj\Debug\Wishlist.pdb
+C:\Users\Simon Skaarup\Desktop\Skole\6 Semester\Bachelor\New folder\WishListAdmin\obj\Debug\WishlistAdmin.csprojResolveAssemblyReference.cache
+C:\Users\Simon Skaarup\Desktop\Skole\6 Semester\Bachelor\New folder\WishListAdmin\obj\Debug\Wishlist.BrowserForm.resources
+C:\Users\Simon Skaarup\Desktop\Skole\6 Semester\Bachelor\New folder\WishListAdmin\obj\Debug\Wishlist.MainForm.resources
+C:\Users\Simon Skaarup\Desktop\Skole\6 Semester\Bachelor\New folder\WishListAdmin\obj\Debug\WishlistAdmin.csproj.GenerateResource.Cache
+C:\Users\Simon Skaarup\Desktop\Skole\6 Semester\Bachelor\New folder\WishListAdmin\obj\Debug\Wishlist.exe
+C:\Users\Simon Skaarup\Desktop\Skole\6 Semester\Bachelor\New folder\WishListAdmin\obj\Debug\Wishlist.pdb
+C:\Users\Simon Skaarup\Desktop\Skole\6 Semester\Bachelor\New folder\WishListAdmin\obj\Debug\BachelorWishList.Properties.Resources.resources
+C:\Users\Simon Skaarup\Desktop\Skole\6 Semester\Bachelor\New folder\WishListAdmin\bin\Debug\Configuration.xml
+C:\Users\Simon Skaarup\Desktop\Skole\6 Semester\Bachelor\New folder\WishListAdmin\bin\Debug\Wishlist.exe.config
+C:\Users\Simon Skaarup\Desktop\Skole\6 Semester\Bachelor\New folder\WishListAdmin\bin\Debug\Wishlist.exe
+C:\Users\Simon Skaarup\Desktop\Skole\6 Semester\Bachelor\New folder\WishListAdmin\bin\Debug\Wishlist.pdb
+C:\Users\Simon Skaarup\Desktop\Skole\6 Semester\Bachelor\New folder\WishListAdmin\bin\Debug\BachelorWishList.dll
+C:\Users\Simon Skaarup\Desktop\Skole\6 Semester\Bachelor\New folder\WishListAdmin\bin\Debug\BachelorWishList.pdb

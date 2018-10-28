@@ -1,0 +1,3 @@
+C:\Users\Simon Skaarup\Desktop\Skole\6 Semester\Bachelor\New folder\WishList\obj\Debug\WishList.csprojResolveAssemblyReference.cache
+C:\Users\Simon Skaarup\Desktop\Skole\6 Semester\Bachelor\New folder\WishList\obj\Debug\WApp.dll
+C:\Users\Simon Skaarup\Desktop\Skole\6 Semester\Bachelor\New folder\WishList\obj\Debug\WApp.pdb

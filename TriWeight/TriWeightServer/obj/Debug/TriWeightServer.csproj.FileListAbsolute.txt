@@ -1,0 +1,6 @@
+C:\Users\Simon Skaarup\Desktop\BachelorWishList\obj\Debug\TriWeightServer.csprojResolveAssemblyReference.cache
+C:\Users\Simon Skaarup\Desktop\BachelorWishList\obj\Debug\BachelorWishList.dll
+C:\Users\Simon Skaarup\Desktop\BachelorWishList\obj\Debug\BachelorWishList.pdb
+C:\Users\Simon Skaarup\Desktop\BachelorWishList\bin\Debug\Configuration.xml
+C:\Users\Simon Skaarup\Desktop\BachelorWishList\bin\Debug\BachelorWishList.dll
+C:\Users\Simon Skaarup\Desktop\BachelorWishList\bin\Debug\BachelorWishList.pdb

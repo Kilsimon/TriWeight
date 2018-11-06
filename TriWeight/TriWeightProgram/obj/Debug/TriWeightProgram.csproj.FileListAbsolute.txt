@@ -11,3 +11,16 @@ C:\Users\Simon Skaarup\Desktop\WishListAdmin\bin\Debug\BachelorWishList.dll
 C:\Users\Simon Skaarup\Desktop\WishListAdmin\bin\Debug\BachelorWishList.pdb
 C:\Users\Simon Skaarup\Desktop\WishListAdmin\obj\Debug\TriWeightProgram.exe
 C:\Users\Simon Skaarup\Desktop\WishListAdmin\obj\Debug\TriWeightProgram.pdb
+C:\Users\Simon Skaarup\Desktop\TriWeight\TriWeightProgram\bin\Debug\Configuration.xml
+C:\Users\Simon Skaarup\Desktop\TriWeight\TriWeightProgram\bin\Debug\TriWeightProgram.exe.config
+C:\Users\Simon Skaarup\Desktop\TriWeight\TriWeightProgram\bin\Debug\TriWeightProgram.exe
+C:\Users\Simon Skaarup\Desktop\TriWeight\TriWeightProgram\bin\Debug\TriWeightProgram.pdb
+C:\Users\Simon Skaarup\Desktop\TriWeight\TriWeightProgram\bin\Debug\BachelorWishList.dll
+C:\Users\Simon Skaarup\Desktop\TriWeight\TriWeightProgram\bin\Debug\BachelorWishList.pdb
+C:\Users\Simon Skaarup\Desktop\TriWeight\TriWeightProgram\obj\Debug\TriWeightProgram.csprojResolveAssemblyReference.cache
+C:\Users\Simon Skaarup\Desktop\TriWeight\TriWeightProgram\obj\Debug\Wishlist.BrowserForm.resources
+C:\Users\Simon Skaarup\Desktop\TriWeight\TriWeightProgram\obj\Debug\Wishlist.MainForm.resources
+C:\Users\Simon Skaarup\Desktop\TriWeight\TriWeightProgram\obj\Debug\TriWeightProgram.Properties.Resources.resources
+C:\Users\Simon Skaarup\Desktop\TriWeight\TriWeightProgram\obj\Debug\TriWeightProgram.csproj.GenerateResource.Cache
+C:\Users\Simon Skaarup\Desktop\TriWeight\TriWeightProgram\obj\Debug\TriWeightProgram.exe
+C:\Users\Simon Skaarup\Desktop\TriWeight\TriWeightProgram\obj\Debug\TriWeightProgram.pdb

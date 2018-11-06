@@ -49,6 +49,47 @@ namespace BachelorWishList
             return tempList;
         }
 
+        public static List<DataClass> GetSomeData(List<CompanyClass> CompanyClass)
+        {
+            List<DataClass> tempList = new List<DataClass>();
+            SqlConnection conn = new SqlConnection(SetUpClass._dbcon);
+            foreach (CompanyClass cc in CompanyClass)
+                try
+                {
+                    int ID = cc.CompanyID;
+                    SqlCommand comm = new SqlCommand("SELECT * FROM " + _sqltable + " where CompanyID=" + ID, conn);
+                    //  SqlCommand comm = new SqlCommand("SELECT * FROM Users", conn);
+                    conn.Open();
+                    List<string> res = new List<string>();
+                    SqlDataReader sr = comm.ExecuteReader();
+
+                    while (sr.Read())
+                    {
+
+                        for (int i = 0; i < sr.FieldCount; i++) //FieldCount - Gets the number of columns in the current row
+                        {
+                            string s = "";
+                            s += (sr.GetValue(i));
+                            res.Add(s);
+                        }
+                        tempList.Add(new DataClass(res));
+                        res.Clear();
+                    }
+
+                    conn.Close();
+
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("{0} Exception caught.", ex.Message);
+                }
+                finally
+                {
+                    conn.Close();
+                }
+            return tempList;
+        } 
+
         public static DataClass GetDataByDataID(int DataID)
         {
             SqlConnection conn = new SqlConnection(SetUpClass._dbcon);
@@ -93,6 +134,26 @@ namespace BachelorWishList
             return res;
         }
 
+        public static int GetCompanyIDFromDataIDAsString(int DataID)
+        {
+            SqlConnection conn = new SqlConnection(SetUpClass._dbcon);
+            SqlCommand comm = new SqlCommand("SELECT * FROM " + _sqltable + " WHERE DataID=" + DataID.ToString(), conn);
+            conn.Open();
+            int res = -1;
+            SqlDataReader sr = comm.ExecuteReader();
+
+            while (sr.Read())
+            {
+
+                    string s = "";
+                    s += (sr.GetValue(2));
+                    res = System.Convert.ToInt32(s);
+
+            }
+            conn.Close();
+            return res;
+        }
+
         #region --- Properties ---
 
         private int _dataID = -1; // The ID of the Event (Primary Key)
@@ -110,6 +171,9 @@ namespace BachelorWishList
         private int _dataWeight = -1; // The location of the event
         public int DataWeight { get { return _dataWeight; } set { _dataWeight = value; } }
 
+        private int _dataState = -1; // The location of the event
+        public int DataState { get { return _dataState; } set { _dataState = value; } }
+
 
         #endregion--- Properties ---
 
@@ -124,6 +188,7 @@ namespace BachelorWishList
             this._companyID = System.Convert.ToInt32(res[2]);
             this._dataTime = System.Convert.ToDateTime(res[3]);
             this._dataWeight = System.Convert.ToInt32(res[4]);
+            this._dataState = System.Convert.ToInt32(res[5]);
         }
 
         public bool SaveMe(string user)
@@ -143,9 +208,11 @@ namespace BachelorWishList
                comm.Parameters["DataTime"].Value = this._dataTime;
                comm.Parameters.Add("DataWeight", System.Data.SqlDbType.Int);
                comm.Parameters["DataWeight"].Value = this._dataWeight;
+               comm.Parameters.Add("DataState", System.Data.SqlDbType.Int);
+               comm.Parameters["DataState"].Value = this._dataState;
 
 
-               conn.Open();
+                conn.Open();
                int rowsaffected = comm.ExecuteNonQuery();
 
                return true;

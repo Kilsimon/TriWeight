@@ -31,92 +31,66 @@ namespace Wishlist
         private void InitializeComponent()
         {
             this.txtEventLocation = new System.Windows.Forms.TextBox();
-            this.chkUserPremium = new System.Windows.Forms.CheckBox();
-            this.chkUserMaster = new System.Windows.Forms.CheckBox();
-            this.txtUserSkin = new System.Windows.Forms.TextBox();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label74 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.txtEventAddGuest = new System.Windows.Forms.TextBox();
-            this.label41 = new System.Windows.Forms.Label();
-            this.twEventGuests = new System.Windows.Forms.TreeView();
-            this.label40 = new System.Windows.Forms.Label();
-            this.chkEventActive = new System.Windows.Forms.CheckBox();
-            this.btnEventNew = new System.Windows.Forms.Button();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.btnEventWishSave = new System.Windows.Forms.Button();
-            this.twEventWishlist = new System.Windows.Forms.TreeView();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.dtpEventDate = new System.Windows.Forms.DateTimePicker();
-            this.txtEventName = new System.Windows.Forms.TextBox();
-            this.txtEventId = new System.Windows.Forms.TextBox();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label24 = new System.Windows.Forms.Label();
-            this.btnWishSave = new System.Windows.Forms.Button();
-            this.btnWishNew = new System.Windows.Forms.Button();
-            this.txtWishURL = new System.Windows.Forms.TextBox();
-            this.txtWishShop = new System.Windows.Forms.TextBox();
-            this.txtWishName = new System.Windows.Forms.TextBox();
-            this.txtWishId = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.twWishItems = new System.Windows.Forms.TreeView();
-            this.label17 = new System.Windows.Forms.Label();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.btnUserDelete = new System.Windows.Forms.Button();
-            this.twUsers = new System.Windows.Forms.TreeView();
-            this.label8 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label75 = new System.Windows.Forms.Label();
-            this.btnUserSave = new System.Windows.Forms.Button();
-            this.btnUserNew = new System.Windows.Forms.Button();
-            this.txtUserName = new System.Windows.Forms.TextBox();
-            this.txtUserId = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.btnDelete = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnSave = new System.Windows.Forms.Button();
-            this.btnNew = new System.Windows.Forms.Button();
-            this.txtFamilyCreated = new System.Windows.Forms.TextBox();
-            this.txtFamilyName = new System.Windows.Forms.TextBox();
-            this.txtFamilyId = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.twFamily = new System.Windows.Forms.TreeView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage4.SuspendLayout();
-            this.groupBox4.SuspendLayout();
-            this.groupBox8.SuspendLayout();
-            this.groupBox5.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.tabControl1.SuspendLayout();
+            this.tabPageBackUp = new System.Windows.Forms.TabPage();
+            this.dateTimePickerBackUp = new System.Windows.Forms.DateTimePicker();
+            this.tabPageData = new System.Windows.Forms.TabPage();
+            this.buttonSearchData = new System.Windows.Forms.Button();
+            this.textBoxDataSearch = new System.Windows.Forms.TextBox();
+            this.labelDataSearch = new System.Windows.Forms.Label();
+            this.groupBoxData = new System.Windows.Forms.GroupBox();
+            this.labelDateTime = new System.Windows.Forms.Label();
+            this.textBoxDataCompanyId = new System.Windows.Forms.TextBox();
+            this.textDataTrivetId = new System.Windows.Forms.TextBox();
+            this.labelDataCompanyId = new System.Windows.Forms.Label();
+            this.labeDataTrivetID = new System.Windows.Forms.Label();
+            this.labelDataId = new System.Windows.Forms.Label();
+            this.btnDataSave = new System.Windows.Forms.Button();
+            this.btnNewData = new System.Windows.Forms.Button();
+            this.txtDataState = new System.Windows.Forms.TextBox();
+            this.txtDataWeight = new System.Windows.Forms.TextBox();
+            this.txtDataTime = new System.Windows.Forms.TextBox();
+            this.txtDataId = new System.Windows.Forms.TextBox();
+            this.labelDataState = new System.Windows.Forms.Label();
+            this.labelDataWeight = new System.Windows.Forms.Label();
+            this.labelDataTime = new System.Windows.Forms.Label();
+            this.twDataItems = new System.Windows.Forms.TreeView();
+            this.labelData = new System.Windows.Forms.Label();
+            this.tabPageTrivet = new System.Windows.Forms.TabPage();
+            this.btnTrivetDelete = new System.Windows.Forms.Button();
+            this.twTrivet = new System.Windows.Forms.TreeView();
+            this.labelTreeNodeTrivetName = new System.Windows.Forms.Label();
+            this.groupBoxTrivet = new System.Windows.Forms.GroupBox();
+            this.textTrivetCount = new System.Windows.Forms.TextBox();
+            this.TrivetCount = new System.Windows.Forms.Label();
+            this.btnSaveTrivet = new System.Windows.Forms.Button();
+            this.btnNewTrivet = new System.Windows.Forms.Button();
+            this.txtTrivetName = new System.Windows.Forms.TextBox();
+            this.txtTrivetId = new System.Windows.Forms.TextBox();
+            this.labelTrivetName = new System.Windows.Forms.Label();
+            this.labelTrivetId = new System.Windows.Forms.Label();
+            this.tabPageCompany = new System.Windows.Forms.TabPage();
+            this.btnDeleteCompany = new System.Windows.Forms.Button();
+            this.groupBoxCompany = new System.Windows.Forms.GroupBox();
+            this.btnSaveCompany = new System.Windows.Forms.Button();
+            this.btnNewCompany = new System.Windows.Forms.Button();
+            this.txtCompanySize = new System.Windows.Forms.TextBox();
+            this.txtCompanyName = new System.Windows.Forms.TextBox();
+            this.txtCompanyId = new System.Windows.Forms.TextBox();
+            this.labelCompanyCount = new System.Windows.Forms.Label();
+            this.labelCompanyName = new System.Windows.Forms.Label();
+            this.labelCompanyID = new System.Windows.Forms.Label();
+            this.twCompany = new System.Windows.Forms.TreeView();
+            this.labelTreeNodeComapnyName = new System.Windows.Forms.Label();
+            this.tabControlTriWeight = new System.Windows.Forms.TabControl();
+            this.labelShowCompanyName = new System.Windows.Forms.Label();
+            this.tabPageBackUp.SuspendLayout();
+            this.tabPageData.SuspendLayout();
+            this.groupBoxData.SuspendLayout();
+            this.tabPageTrivet.SuspendLayout();
+            this.groupBoxTrivet.SuspendLayout();
+            this.tabPageCompany.SuspendLayout();
+            this.groupBoxCompany.SuspendLayout();
+            this.tabControlTriWeight.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtEventLocation
@@ -126,863 +100,594 @@ namespace Wishlist
             this.txtEventLocation.Size = new System.Drawing.Size(100, 20);
             this.txtEventLocation.TabIndex = 0;
             // 
-            // chkUserPremium
-            // 
-            this.chkUserPremium.Location = new System.Drawing.Point(0, 0);
-            this.chkUserPremium.Name = "chkUserPremium";
-            this.chkUserPremium.Size = new System.Drawing.Size(104, 24);
-            this.chkUserPremium.TabIndex = 0;
-            // 
-            // chkUserMaster
-            // 
-            this.chkUserMaster.Location = new System.Drawing.Point(0, 0);
-            this.chkUserMaster.Name = "chkUserMaster";
-            this.chkUserMaster.Size = new System.Drawing.Size(104, 24);
-            this.chkUserMaster.TabIndex = 0;
-            // 
-            // txtUserSkin
-            // 
-            this.txtUserSkin.Location = new System.Drawing.Point(0, 0);
-            this.txtUserSkin.Name = "txtUserSkin";
-            this.txtUserSkin.Size = new System.Drawing.Size(100, 20);
-            this.txtUserSkin.TabIndex = 0;
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.Controls.Add(this.groupBox4);
-            this.tabPage4.Controls.Add(this.label25);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(1162, 589);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Events";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.textBox3);
-            this.groupBox4.Controls.Add(this.label74);
-            this.groupBox4.Controls.Add(this.textBox2);
-            this.groupBox4.Controls.Add(this.label46);
-            this.groupBox4.Controls.Add(this.label9);
-            this.groupBox4.Controls.Add(this.textBox1);
-            this.groupBox4.Controls.Add(this.groupBox8);
-            this.groupBox4.Controls.Add(this.chkEventActive);
-            this.groupBox4.Controls.Add(this.btnEventNew);
-            this.groupBox4.Controls.Add(this.groupBox5);
-            this.groupBox4.Controls.Add(this.dtpEventDate);
-            this.groupBox4.Controls.Add(this.txtEventName);
-            this.groupBox4.Controls.Add(this.txtEventId);
-            this.groupBox4.Controls.Add(this.label28);
-            this.groupBox4.Controls.Add(this.label27);
-            this.groupBox4.Controls.Add(this.label26);
-            this.groupBox4.Location = new System.Drawing.Point(88, 29);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(857, 488);
-            this.groupBox4.TabIndex = 2;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Event details";
-            this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(213, 34);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(40, 20);
-            this.textBox3.TabIndex = 16;
-            this.textBox3.TextChanged += new System.EventHandler(this.txtEventsId_TextChanged);
-            // 
-            // label74
-            // 
-            this.label74.AutoSize = true;
-            this.label74.Location = new System.Drawing.Point(161, 37);
-            this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(51, 13);
-            this.label74.TabIndex = 15;
-            this.label74.Text = "EventsID";
-            this.label74.Click += new System.EventHandler(this.label74_Click);
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(109, 102);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(307, 20);
-            this.textBox2.TabIndex = 14;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(20, 105);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(48, 13);
-            this.label46.TabIndex = 13;
-            this.label46.Text = "Location";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(275, 37);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(40, 13);
-            this.label9.TabIndex = 12;
-            this.label9.Text = "UserID";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(321, 34);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(95, 20);
-            this.textBox1.TabIndex = 11;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // groupBox8
-            // 
-            this.groupBox8.Controls.Add(this.txtEventAddGuest);
-            this.groupBox8.Controls.Add(this.label41);
-            this.groupBox8.Controls.Add(this.twEventGuests);
-            this.groupBox8.Controls.Add(this.label40);
-            this.groupBox8.Location = new System.Drawing.Point(583, 179);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(254, 228);
-            this.groupBox8.TabIndex = 10;
-            this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "Guests";
-            // 
-            // txtEventAddGuest
-            // 
-            this.txtEventAddGuest.Location = new System.Drawing.Point(20, 155);
-            this.txtEventAddGuest.Name = "txtEventAddGuest";
-            this.txtEventAddGuest.Size = new System.Drawing.Size(212, 20);
-            this.txtEventAddGuest.TabIndex = 5;
-            this.txtEventAddGuest.TextChanged += new System.EventHandler(this.txtEventAddGuest_TextChanged);
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(20, 139);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(67, 13);
-            this.label41.TabIndex = 3;
-            this.label41.Text = "Guest E-Mail";
-            // 
-            // twEventGuests
-            // 
-            this.twEventGuests.Location = new System.Drawing.Point(23, 39);
-            this.twEventGuests.Name = "twEventGuests";
-            this.twEventGuests.ShowLines = false;
-            this.twEventGuests.ShowPlusMinus = false;
-            this.twEventGuests.ShowRootLines = false;
-            this.twEventGuests.Size = new System.Drawing.Size(213, 63);
-            this.twEventGuests.TabIndex = 1;
-            this.twEventGuests.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.twEventGuests_AfterSelect);
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(20, 20);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(75, 13);
-            this.label40.TabIndex = 0;
-            this.label40.Text = "Invited Guests";
-            // 
-            // chkEventActive
-            // 
-            this.chkEventActive.AutoSize = true;
-            this.chkEventActive.Location = new System.Drawing.Point(360, 141);
-            this.chkEventActive.Name = "chkEventActive";
-            this.chkEventActive.Size = new System.Drawing.Size(56, 17);
-            this.chkEventActive.TabIndex = 9;
-            this.chkEventActive.Text = "Active";
-            this.chkEventActive.UseVisualStyleBackColor = true;
-            // 
-            // btnEventNew
-            // 
-            this.btnEventNew.Location = new System.Drawing.Point(24, 424);
-            this.btnEventNew.Name = "btnEventNew";
-            this.btnEventNew.Size = new System.Drawing.Size(79, 45);
-            this.btnEventNew.TabIndex = 7;
-            this.btnEventNew.Text = "New";
-            this.btnEventNew.UseVisualStyleBackColor = true;
-            this.btnEventNew.Click += new System.EventHandler(this.btnEventNew_Click_1);
-            // 
-            // groupBox5
-            // 
-            this.groupBox5.Controls.Add(this.btnEventWishSave);
-            this.groupBox5.Controls.Add(this.twEventWishlist);
-            this.groupBox5.Controls.Add(this.label31);
-            this.groupBox5.Controls.Add(this.label30);
-            this.groupBox5.Location = new System.Drawing.Point(24, 179);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(542, 228);
-            this.groupBox5.TabIndex = 6;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Wishes";
-            // 
-            // btnEventWishSave
-            // 
-            this.btnEventWishSave.Location = new System.Drawing.Point(416, 163);
-            this.btnEventWishSave.Name = "btnEventWishSave";
-            this.btnEventWishSave.Size = new System.Drawing.Size(79, 45);
-            this.btnEventWishSave.TabIndex = 9;
-            this.btnEventWishSave.Text = "Save";
-            this.btnEventWishSave.UseVisualStyleBackColor = true;
-            // 
-            // twEventWishlist
-            // 
-            this.twEventWishlist.CheckBoxes = true;
-            this.twEventWishlist.Location = new System.Drawing.Point(87, 70);
-            this.twEventWishlist.Name = "twEventWishlist";
-            this.twEventWishlist.ShowLines = false;
-            this.twEventWishlist.ShowPlusMinus = false;
-            this.twEventWishlist.ShowRootLines = false;
-            this.twEventWishlist.Size = new System.Drawing.Size(306, 138);
-            this.twEventWishlist.TabIndex = 3;
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(22, 71);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(42, 13);
-            this.label31.TabIndex = 2;
-            this.label31.Text = "Wishes";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(22, 37);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(34, 13);
-            this.label30.TabIndex = 1;
-            this.label30.Text = "Trivet";
-            // 
-            // dtpEventDate
-            // 
-            this.dtpEventDate.Location = new System.Drawing.Point(111, 136);
-            this.dtpEventDate.Name = "dtpEventDate";
-            this.dtpEventDate.Size = new System.Drawing.Size(142, 20);
-            this.dtpEventDate.TabIndex = 5;
-            this.dtpEventDate.ValueChanged += new System.EventHandler(this.dtpEventDate_ValueChanged);
-            // 
-            // txtEventName
-            // 
-            this.txtEventName.Location = new System.Drawing.Point(110, 67);
-            this.txtEventName.Name = "txtEventName";
-            this.txtEventName.Size = new System.Drawing.Size(307, 20);
-            this.txtEventName.TabIndex = 4;
-            this.txtEventName.TextChanged += new System.EventHandler(this.txtEventName_TextChanged);
-            // 
-            // txtEventId
-            // 
-            this.txtEventId.Location = new System.Drawing.Point(110, 34);
-            this.txtEventId.Name = "txtEventId";
-            this.txtEventId.ReadOnly = true;
-            this.txtEventId.Size = new System.Drawing.Size(40, 20);
-            this.txtEventId.TabIndex = 3;
-            this.txtEventId.TextChanged += new System.EventHandler(this.txtEventId_TextChanged);
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(21, 136);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(30, 13);
-            this.label28.TabIndex = 2;
-            this.label28.Text = "Date";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(21, 70);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(35, 13);
-            this.label27.TabIndex = 1;
-            this.label27.Text = "Name";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(21, 37);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(46, 13);
-            this.label26.TabIndex = 0;
-            this.label26.Text = "EventID";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(24, 29);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(40, 13);
-            this.label25.TabIndex = 0;
-            this.label25.Text = "Events";
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Controls.Add(this.groupBox3);
-            this.tabPage3.Controls.Add(this.twWishItems);
-            this.tabPage3.Controls.Add(this.label17);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(1162, 589);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Data";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.label6);
-            this.groupBox3.Controls.Add(this.textBox6);
-            this.groupBox3.Controls.Add(this.label4);
-            this.groupBox3.Controls.Add(this.textBox5);
-            this.groupBox3.Controls.Add(this.label24);
-            this.groupBox3.Controls.Add(this.btnWishSave);
-            this.groupBox3.Controls.Add(this.btnWishNew);
-            this.groupBox3.Controls.Add(this.txtWishURL);
-            this.groupBox3.Controls.Add(this.txtWishShop);
-            this.groupBox3.Controls.Add(this.txtWishName);
-            this.groupBox3.Controls.Add(this.txtWishId);
-            this.groupBox3.Controls.Add(this.label22);
-            this.groupBox3.Controls.Add(this.label20);
-            this.groupBox3.Controls.Add(this.label18);
-            this.groupBox3.Location = new System.Drawing.Point(424, 51);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(459, 440);
-            this.groupBox3.TabIndex = 6;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Details";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(16, 126);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(60, 13);
-            this.label6.TabIndex = 20;
-            this.label6.Text = "CompnayID";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(99, 123);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.ReadOnly = true;
-            this.textBox6.Size = new System.Drawing.Size(40, 20);
-            this.textBox6.TabIndex = 19;
-            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(16, 80);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(43, 13);
-            this.label4.TabIndex = 18;
-            this.label4.Text = "TrivetID";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(99, 77);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(40, 20);
-            this.textBox5.TabIndex = 17;
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(20, 37);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(39, 13);
-            this.label24.TabIndex = 15;
-            this.label24.Text = "DataID";
-            // 
-            // btnWishSave
-            // 
-            this.btnWishSave.Location = new System.Drawing.Point(370, 367);
-            this.btnWishSave.Name = "btnWishSave";
-            this.btnWishSave.Size = new System.Drawing.Size(79, 45);
-            this.btnWishSave.TabIndex = 13;
-            this.btnWishSave.Text = "Save";
-            this.btnWishSave.UseVisualStyleBackColor = true;
-            this.btnWishSave.Click += new System.EventHandler(this.btnWishSave_Click_1);
-            // 
-            // btnWishNew
-            // 
-            this.btnWishNew.Location = new System.Drawing.Point(23, 367);
-            this.btnWishNew.Name = "btnWishNew";
-            this.btnWishNew.Size = new System.Drawing.Size(79, 45);
-            this.btnWishNew.TabIndex = 12;
-            this.btnWishNew.Text = "New";
-            this.btnWishNew.UseVisualStyleBackColor = true;
-            this.btnWishNew.Click += new System.EventHandler(this.btnWishNew_Click_1);
-            // 
-            // txtWishURL
-            // 
-            this.txtWishURL.Location = new System.Drawing.Point(99, 251);
-            this.txtWishURL.Name = "txtWishURL";
-            this.txtWishURL.Size = new System.Drawing.Size(345, 20);
-            this.txtWishURL.TabIndex = 10;
-            // 
-            // txtWishShop
-            // 
-            this.txtWishShop.Location = new System.Drawing.Point(99, 211);
-            this.txtWishShop.Name = "txtWishShop";
-            this.txtWishShop.Size = new System.Drawing.Size(345, 20);
-            this.txtWishShop.TabIndex = 9;
-            // 
-            // txtWishName
-            // 
-            this.txtWishName.Location = new System.Drawing.Point(99, 170);
-            this.txtWishName.Name = "txtWishName";
-            this.txtWishName.Size = new System.Drawing.Size(345, 20);
-            this.txtWishName.TabIndex = 7;
-            // 
-            // txtWishId
-            // 
-            this.txtWishId.Location = new System.Drawing.Point(99, 34);
-            this.txtWishId.Name = "txtWishId";
-            this.txtWishId.ReadOnly = true;
-            this.txtWishId.Size = new System.Drawing.Size(40, 20);
-            this.txtWishId.TabIndex = 6;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(20, 254);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(29, 13);
-            this.label22.TabIndex = 4;
-            this.label22.Text = "URL";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(20, 214);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(32, 13);
-            this.label20.TabIndex = 2;
-            this.label20.Text = "Shop";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(20, 173);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(35, 13);
-            this.label18.TabIndex = 0;
-            this.label18.Text = "Name";
-            // 
-            // twWishItems
-            // 
-            this.twWishItems.Location = new System.Drawing.Point(28, 51);
-            this.twWishItems.Name = "twWishItems";
-            this.twWishItems.ShowLines = false;
-            this.twWishItems.ShowPlusMinus = false;
-            this.twWishItems.ShowRootLines = false;
-            this.twWishItems.Size = new System.Drawing.Size(351, 313);
-            this.twWishItems.TabIndex = 5;
-            this.twWishItems.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.twWishItems_AfterSelect);
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(25, 25);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(42, 13);
-            this.label17.TabIndex = 4;
-            this.label17.Text = "Wishes";
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.btnUserDelete);
-            this.tabPage2.Controls.Add(this.twUsers);
-            this.tabPage2.Controls.Add(this.label8);
-            this.tabPage2.Controls.Add(this.groupBox2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1162, 589);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Trivet";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // btnUserDelete
-            // 
-            this.btnUserDelete.Location = new System.Drawing.Point(21, 424);
-            this.btnUserDelete.Name = "btnUserDelete";
-            this.btnUserDelete.Size = new System.Drawing.Size(319, 23);
-            this.btnUserDelete.TabIndex = 7;
-            this.btnUserDelete.Text = "Delete";
-            this.btnUserDelete.UseVisualStyleBackColor = true;
-            // 
-            // twUsers
-            // 
-            this.twUsers.Location = new System.Drawing.Point(21, 44);
-            this.twUsers.Name = "twUsers";
-            this.twUsers.ShowLines = false;
-            this.twUsers.ShowPlusMinus = false;
-            this.twUsers.ShowRootLines = false;
-            this.twUsers.Size = new System.Drawing.Size(320, 368);
-            this.twUsers.TabIndex = 5;
-            this.twUsers.NodeMouseDoubleClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.twUsers_NodeMouseDoubleClick);
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(20, 20);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(34, 13);
-            this.label8.TabIndex = 4;
-            this.label8.Text = "Trivet";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.textBox4);
-            this.groupBox2.Controls.Add(this.label75);
-            this.groupBox2.Controls.Add(this.btnUserSave);
-            this.groupBox2.Controls.Add(this.btnUserNew);
-            this.groupBox2.Controls.Add(this.txtUserName);
-            this.groupBox2.Controls.Add(this.txtUserId);
-            this.groupBox2.Controls.Add(this.label10);
-            this.groupBox2.Controls.Add(this.label11);
-            this.groupBox2.Location = new System.Drawing.Point(373, 44);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(726, 403);
-            this.groupBox2.TabIndex = 6;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Details";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(116, 145);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(251, 20);
-            this.textBox4.TabIndex = 27;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
-            // 
-            // label75
-            // 
-            this.label75.AutoSize = true;
-            this.label75.Location = new System.Drawing.Point(20, 148);
-            this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(35, 13);
-            this.label75.TabIndex = 26;
-            this.label75.Text = "Name";
-            this.label75.Click += new System.EventHandler(this.label75_Click);
-            // 
-            // btnUserSave
-            // 
-            this.btnUserSave.Location = new System.Drawing.Point(288, 323);
-            this.btnUserSave.Name = "btnUserSave";
-            this.btnUserSave.Size = new System.Drawing.Size(79, 45);
-            this.btnUserSave.TabIndex = 11;
-            this.btnUserSave.Text = "Save";
-            this.btnUserSave.UseVisualStyleBackColor = true;
-            this.btnUserSave.Click += new System.EventHandler(this.btnUserSave_Click);
-            // 
-            // btnUserNew
-            // 
-            this.btnUserNew.Location = new System.Drawing.Point(23, 323);
-            this.btnUserNew.Name = "btnUserNew";
-            this.btnUserNew.Size = new System.Drawing.Size(79, 45);
-            this.btnUserNew.TabIndex = 12;
-            this.btnUserNew.Text = "New";
-            this.btnUserNew.UseVisualStyleBackColor = true;
-            this.btnUserNew.Click += new System.EventHandler(this.btnUserNew_Click);
-            // 
-            // txtUserName
-            // 
-            this.txtUserName.Location = new System.Drawing.Point(116, 87);
-            this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(251, 20);
-            this.txtUserName.TabIndex = 6;
-            // 
-            // txtUserId
-            // 
-            this.txtUserId.Location = new System.Drawing.Point(116, 34);
-            this.txtUserId.Name = "txtUserId";
-            this.txtUserId.ReadOnly = true;
-            this.txtUserId.Size = new System.Drawing.Size(40, 20);
-            this.txtUserId.TabIndex = 5;
-            this.txtUserId.TextChanged += new System.EventHandler(this.txtUserId_TextChanged);
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(20, 90);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(35, 13);
-            this.label10.TabIndex = 1;
-            this.label10.Text = "Name";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(20, 37);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(43, 13);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "TrivetID";
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.Controls.Add(this.btnDelete);
-            this.tabPage1.Controls.Add(this.groupBox1);
-            this.tabPage1.Controls.Add(this.twFamily);
-            this.tabPage1.Controls.Add(this.label1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1162, 589);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Company";
-            this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // btnDelete
-            // 
-            this.btnDelete.Location = new System.Drawing.Point(21, 424);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(319, 23);
-            this.btnDelete.TabIndex = 3;
-            this.btnDelete.Text = "Delete";
-            this.btnDelete.UseVisualStyleBackColor = true;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.btnSave);
-            this.groupBox1.Controls.Add(this.btnNew);
-            this.groupBox1.Controls.Add(this.txtFamilyCreated);
-            this.groupBox1.Controls.Add(this.txtFamilyName);
-            this.groupBox1.Controls.Add(this.txtFamilyId);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Location = new System.Drawing.Point(371, 44);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(401, 411);
-            this.groupBox1.TabIndex = 2;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Details";
-            // 
-            // btnSave
-            // 
-            this.btnSave.Location = new System.Drawing.Point(274, 331);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(79, 45);
-            this.btnSave.TabIndex = 3;
-            this.btnSave.Text = "Save";
-            this.btnSave.UseVisualStyleBackColor = true;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
-            // 
-            // btnNew
-            // 
-            this.btnNew.Location = new System.Drawing.Point(17, 331);
-            this.btnNew.Name = "btnNew";
-            this.btnNew.Size = new System.Drawing.Size(79, 45);
-            this.btnNew.TabIndex = 4;
-            this.btnNew.Text = "New";
-            this.btnNew.UseVisualStyleBackColor = true;
-            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
-            // 
-            // txtFamilyCreated
-            // 
-            this.txtFamilyCreated.Location = new System.Drawing.Point(102, 138);
-            this.txtFamilyCreated.Name = "txtFamilyCreated";
-            this.txtFamilyCreated.Size = new System.Drawing.Size(251, 20);
-            this.txtFamilyCreated.TabIndex = 8;
-            // 
-            // txtFamilyName
-            // 
-            this.txtFamilyName.Location = new System.Drawing.Point(102, 87);
-            this.txtFamilyName.Name = "txtFamilyName";
-            this.txtFamilyName.Size = new System.Drawing.Size(251, 20);
-            this.txtFamilyName.TabIndex = 1;
-            this.txtFamilyName.TextChanged += new System.EventHandler(this.txtFamilyName_TextChanged);
-            // 
-            // txtFamilyId
-            // 
-            this.txtFamilyId.Location = new System.Drawing.Point(102, 34);
-            this.txtFamilyId.Name = "txtFamilyId";
-            this.txtFamilyId.ReadOnly = true;
-            this.txtFamilyId.Size = new System.Drawing.Size(40, 20);
-            this.txtFamilyId.TabIndex = 0;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(20, 141);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(82, 13);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "Company Count";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(20, 90);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Name";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 37);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 13);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "CompnayID";
-            // 
-            // twFamily
-            // 
-            this.twFamily.Location = new System.Drawing.Point(21, 44);
-            this.twFamily.Name = "twFamily";
-            this.twFamily.ShowLines = false;
-            this.twFamily.ShowPlusMinus = false;
-            this.twFamily.ShowRootLines = false;
-            this.twFamily.Size = new System.Drawing.Size(320, 368);
-            this.twFamily.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(20, 20);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Companies";
-            // 
-            // tabControl1
-            // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Location = new System.Drawing.Point(20, 20);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1170, 615);
-            this.tabControl1.TabIndex = 0;
+            // tabPageBackUp
+            // 
+            this.tabPageBackUp.Controls.Add(this.dateTimePickerBackUp);
+            this.tabPageBackUp.Location = new System.Drawing.Point(4, 22);
+            this.tabPageBackUp.Name = "tabPageBackUp";
+            this.tabPageBackUp.Size = new System.Drawing.Size(1162, 589);
+            this.tabPageBackUp.TabIndex = 3;
+            this.tabPageBackUp.Text = "Back-Up";
+            this.tabPageBackUp.UseVisualStyleBackColor = true;
+            // 
+            // dateTimePickerBackUp
+            // 
+            this.dateTimePickerBackUp.Location = new System.Drawing.Point(39, 44);
+            this.dateTimePickerBackUp.Name = "dateTimePickerBackUp";
+            this.dateTimePickerBackUp.Size = new System.Drawing.Size(142, 20);
+            this.dateTimePickerBackUp.TabIndex = 8;
+            // 
+            // tabPageData
+            // 
+            this.tabPageData.Controls.Add(this.labelShowCompanyName);
+            this.tabPageData.Controls.Add(this.buttonSearchData);
+            this.tabPageData.Controls.Add(this.textBoxDataSearch);
+            this.tabPageData.Controls.Add(this.labelDataSearch);
+            this.tabPageData.Controls.Add(this.groupBoxData);
+            this.tabPageData.Controls.Add(this.twDataItems);
+            this.tabPageData.Controls.Add(this.labelData);
+            this.tabPageData.Location = new System.Drawing.Point(4, 22);
+            this.tabPageData.Name = "tabPageData";
+            this.tabPageData.Size = new System.Drawing.Size(1162, 589);
+            this.tabPageData.TabIndex = 2;
+            this.tabPageData.Text = "Data";
+            this.tabPageData.UseVisualStyleBackColor = true;
+            // 
+            // buttonSearchData
+            // 
+            this.buttonSearchData.Location = new System.Drawing.Point(28, 418);
+            this.buttonSearchData.Name = "buttonSearchData";
+            this.buttonSearchData.Size = new System.Drawing.Size(351, 27);
+            this.buttonSearchData.TabIndex = 22;
+            this.buttonSearchData.Text = "Search for Data from Company";
+            this.buttonSearchData.UseVisualStyleBackColor = true;
+            this.buttonSearchData.Click += new System.EventHandler(this.buttonSearchData_Click);
+            // 
+            // textBoxDataSearch
+            // 
+            this.textBoxDataSearch.Location = new System.Drawing.Point(118, 383);
+            this.textBoxDataSearch.Name = "textBoxDataSearch";
+            this.textBoxDataSearch.Size = new System.Drawing.Size(261, 20);
+            this.textBoxDataSearch.TabIndex = 23;
+            // 
+            // labelDataSearch
+            // 
+            this.labelDataSearch.AutoSize = true;
+            this.labelDataSearch.Location = new System.Drawing.Point(30, 386);
+            this.labelDataSearch.Name = "labelDataSearch";
+            this.labelDataSearch.Size = new System.Drawing.Size(82, 13);
+            this.labelDataSearch.TabIndex = 22;
+            this.labelDataSearch.Text = "Company Name";
+            // 
+            // groupBoxData
+            // 
+            this.groupBoxData.Controls.Add(this.labelDateTime);
+            this.groupBoxData.Controls.Add(this.textBoxDataCompanyId);
+            this.groupBoxData.Controls.Add(this.textDataTrivetId);
+            this.groupBoxData.Controls.Add(this.labelDataCompanyId);
+            this.groupBoxData.Controls.Add(this.labeDataTrivetID);
+            this.groupBoxData.Controls.Add(this.labelDataId);
+            this.groupBoxData.Controls.Add(this.btnDataSave);
+            this.groupBoxData.Controls.Add(this.btnNewData);
+            this.groupBoxData.Controls.Add(this.txtDataState);
+            this.groupBoxData.Controls.Add(this.txtDataWeight);
+            this.groupBoxData.Controls.Add(this.txtDataTime);
+            this.groupBoxData.Controls.Add(this.txtDataId);
+            this.groupBoxData.Controls.Add(this.labelDataState);
+            this.groupBoxData.Controls.Add(this.labelDataWeight);
+            this.groupBoxData.Controls.Add(this.labelDataTime);
+            this.groupBoxData.Location = new System.Drawing.Point(424, 51);
+            this.groupBoxData.Name = "groupBoxData";
+            this.groupBoxData.Size = new System.Drawing.Size(459, 440);
+            this.groupBoxData.TabIndex = 6;
+            this.groupBoxData.TabStop = false;
+            this.groupBoxData.Text = "New Data";
+            // 
+            // labelDateTime
+            // 
+            this.labelDateTime.AutoSize = true;
+            this.labelDateTime.Location = new System.Drawing.Point(219, 166);
+            this.labelDateTime.Name = "labelDateTime";
+            this.labelDateTime.Size = new System.Drawing.Size(225, 13);
+            this.labelDateTime.TabIndex = 23;
+            this.labelDateTime.Text = "DATETIME - format: YYYY-MM-DD HH:MI:SS";
+            // 
+            // textBoxDataCompanyId
+            // 
+            this.textBoxDataCompanyId.Location = new System.Drawing.Point(99, 126);
+            this.textBoxDataCompanyId.Name = "textBoxDataCompanyId";
+            this.textBoxDataCompanyId.Size = new System.Drawing.Size(40, 20);
+            this.textBoxDataCompanyId.TabIndex = 22;
+            // 
+            // textDataTrivetId
+            // 
+            this.textDataTrivetId.Location = new System.Drawing.Point(99, 77);
+            this.textDataTrivetId.Name = "textDataTrivetId";
+            this.textDataTrivetId.Size = new System.Drawing.Size(40, 20);
+            this.textDataTrivetId.TabIndex = 21;
+            // 
+            // labelDataCompanyId
+            // 
+            this.labelDataCompanyId.AutoSize = true;
+            this.labelDataCompanyId.Location = new System.Drawing.Point(16, 126);
+            this.labelDataCompanyId.Name = "labelDataCompanyId";
+            this.labelDataCompanyId.Size = new System.Drawing.Size(62, 13);
+            this.labelDataCompanyId.TabIndex = 20;
+            this.labelDataCompanyId.Text = "CompnayID";
+            // 
+            // labeDataTrivetID
+            // 
+            this.labeDataTrivetID.AutoSize = true;
+            this.labeDataTrivetID.Location = new System.Drawing.Point(16, 80);
+            this.labeDataTrivetID.Name = "labeDataTrivetID";
+            this.labeDataTrivetID.Size = new System.Drawing.Size(45, 13);
+            this.labeDataTrivetID.TabIndex = 18;
+            this.labeDataTrivetID.Text = "TrivetID";
+            // 
+            // labelDataId
+            // 
+            this.labelDataId.AutoSize = true;
+            this.labelDataId.Location = new System.Drawing.Point(20, 37);
+            this.labelDataId.Name = "labelDataId";
+            this.labelDataId.Size = new System.Drawing.Size(41, 13);
+            this.labelDataId.TabIndex = 15;
+            this.labelDataId.Text = "DataID";
+            // 
+            // btnDataSave
+            // 
+            this.btnDataSave.Location = new System.Drawing.Point(370, 367);
+            this.btnDataSave.Name = "btnDataSave";
+            this.btnDataSave.Size = new System.Drawing.Size(79, 45);
+            this.btnDataSave.TabIndex = 13;
+            this.btnDataSave.Text = "Save";
+            this.btnDataSave.UseVisualStyleBackColor = true;
+            this.btnDataSave.Click += new System.EventHandler(this.btnDataSave_click);
+            // 
+            // btnNewData
+            // 
+            this.btnNewData.Location = new System.Drawing.Point(23, 367);
+            this.btnNewData.Name = "btnNewData";
+            this.btnNewData.Size = new System.Drawing.Size(79, 45);
+            this.btnNewData.TabIndex = 12;
+            this.btnNewData.Text = "New";
+            this.btnNewData.UseVisualStyleBackColor = true;
+            this.btnNewData.Click += new System.EventHandler(this.btnNewData_Click);
+            // 
+            // txtDataState
+            // 
+            this.txtDataState.Location = new System.Drawing.Point(99, 273);
+            this.txtDataState.Name = "txtDataState";
+            this.txtDataState.Size = new System.Drawing.Size(345, 20);
+            this.txtDataState.TabIndex = 10;
+            // 
+            // txtDataWeight
+            // 
+            this.txtDataWeight.Location = new System.Drawing.Point(99, 233);
+            this.txtDataWeight.Name = "txtDataWeight";
+            this.txtDataWeight.Size = new System.Drawing.Size(345, 20);
+            this.txtDataWeight.TabIndex = 9;
+            // 
+            // txtDataTime
+            // 
+            this.txtDataTime.Location = new System.Drawing.Point(99, 192);
+            this.txtDataTime.Name = "txtDataTime";
+            this.txtDataTime.Size = new System.Drawing.Size(345, 20);
+            this.txtDataTime.TabIndex = 7;
+            // 
+            // txtDataId
+            // 
+            this.txtDataId.Location = new System.Drawing.Point(99, 34);
+            this.txtDataId.Name = "txtDataId";
+            this.txtDataId.ReadOnly = true;
+            this.txtDataId.Size = new System.Drawing.Size(40, 20);
+            this.txtDataId.TabIndex = 6;
+            // 
+            // labelDataState
+            // 
+            this.labelDataState.AutoSize = true;
+            this.labelDataState.Location = new System.Drawing.Point(20, 276);
+            this.labelDataState.Name = "labelDataState";
+            this.labelDataState.Size = new System.Drawing.Size(52, 13);
+            this.labelDataState.TabIndex = 4;
+            this.labelDataState.Text = "State (int)";
+            // 
+            // labelDataWeight
+            // 
+            this.labelDataWeight.AutoSize = true;
+            this.labelDataWeight.Location = new System.Drawing.Point(20, 236);
+            this.labelDataWeight.Name = "labelDataWeight";
+            this.labelDataWeight.Size = new System.Drawing.Size(41, 13);
+            this.labelDataWeight.TabIndex = 2;
+            this.labelDataWeight.Text = "Weight";
+            // 
+            // labelDataTime
+            // 
+            this.labelDataTime.AutoSize = true;
+            this.labelDataTime.Location = new System.Drawing.Point(20, 195);
+            this.labelDataTime.Name = "labelDataTime";
+            this.labelDataTime.Size = new System.Drawing.Size(30, 13);
+            this.labelDataTime.TabIndex = 0;
+            this.labelDataTime.Text = "Time";
+            // 
+            // twDataItems
+            // 
+            this.twDataItems.Location = new System.Drawing.Point(28, 51);
+            this.twDataItems.Name = "twDataItems";
+            this.twDataItems.ShowLines = false;
+            this.twDataItems.ShowPlusMinus = false;
+            this.twDataItems.ShowRootLines = false;
+            this.twDataItems.Size = new System.Drawing.Size(351, 313);
+            this.twDataItems.TabIndex = 5;
+            this.twDataItems.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.twWishItems_AfterSelect);
+            // 
+            // labelData
+            // 
+            this.labelData.AutoSize = true;
+            this.labelData.Location = new System.Drawing.Point(25, 25);
+            this.labelData.Name = "labelData";
+            this.labelData.Size = new System.Drawing.Size(30, 13);
+            this.labelData.TabIndex = 4;
+            this.labelData.Text = "Data";
+            // 
+            // tabPageTrivet
+            // 
+            this.tabPageTrivet.Controls.Add(this.btnTrivetDelete);
+            this.tabPageTrivet.Controls.Add(this.twTrivet);
+            this.tabPageTrivet.Controls.Add(this.labelTreeNodeTrivetName);
+            this.tabPageTrivet.Controls.Add(this.groupBoxTrivet);
+            this.tabPageTrivet.Location = new System.Drawing.Point(4, 22);
+            this.tabPageTrivet.Name = "tabPageTrivet";
+            this.tabPageTrivet.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageTrivet.Size = new System.Drawing.Size(1162, 589);
+            this.tabPageTrivet.TabIndex = 1;
+            this.tabPageTrivet.Text = "Trivet";
+            this.tabPageTrivet.UseVisualStyleBackColor = true;
+            // 
+            // btnTrivetDelete
+            // 
+            this.btnTrivetDelete.Location = new System.Drawing.Point(21, 424);
+            this.btnTrivetDelete.Name = "btnTrivetDelete";
+            this.btnTrivetDelete.Size = new System.Drawing.Size(319, 23);
+            this.btnTrivetDelete.TabIndex = 7;
+            this.btnTrivetDelete.Text = "Delete";
+            this.btnTrivetDelete.UseVisualStyleBackColor = true;
+            // 
+            // twTrivet
+            // 
+            this.twTrivet.Location = new System.Drawing.Point(21, 44);
+            this.twTrivet.Name = "twTrivet";
+            this.twTrivet.ShowLines = false;
+            this.twTrivet.ShowPlusMinus = false;
+            this.twTrivet.ShowRootLines = false;
+            this.twTrivet.Size = new System.Drawing.Size(320, 368);
+            this.twTrivet.TabIndex = 5;
+            this.twTrivet.NodeMouseDoubleClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.twUsers_NodeMouseDoubleClick);
+            // 
+            // labelTreeNodeTrivetName
+            // 
+            this.labelTreeNodeTrivetName.AutoSize = true;
+            this.labelTreeNodeTrivetName.Location = new System.Drawing.Point(20, 20);
+            this.labelTreeNodeTrivetName.Name = "labelTreeNodeTrivetName";
+            this.labelTreeNodeTrivetName.Size = new System.Drawing.Size(34, 13);
+            this.labelTreeNodeTrivetName.TabIndex = 4;
+            this.labelTreeNodeTrivetName.Text = "Trivet";
+            // 
+            // groupBoxTrivet
+            // 
+            this.groupBoxTrivet.Controls.Add(this.textTrivetCount);
+            this.groupBoxTrivet.Controls.Add(this.TrivetCount);
+            this.groupBoxTrivet.Controls.Add(this.btnSaveTrivet);
+            this.groupBoxTrivet.Controls.Add(this.btnNewTrivet);
+            this.groupBoxTrivet.Controls.Add(this.txtTrivetName);
+            this.groupBoxTrivet.Controls.Add(this.txtTrivetId);
+            this.groupBoxTrivet.Controls.Add(this.labelTrivetName);
+            this.groupBoxTrivet.Controls.Add(this.labelTrivetId);
+            this.groupBoxTrivet.Location = new System.Drawing.Point(373, 44);
+            this.groupBoxTrivet.Name = "groupBoxTrivet";
+            this.groupBoxTrivet.Size = new System.Drawing.Size(726, 403);
+            this.groupBoxTrivet.TabIndex = 6;
+            this.groupBoxTrivet.TabStop = false;
+            this.groupBoxTrivet.Text = "New Trivet";
+            // 
+            // textTrivetCount
+            // 
+            this.textTrivetCount.Location = new System.Drawing.Point(116, 145);
+            this.textTrivetCount.Name = "textTrivetCount";
+            this.textTrivetCount.Size = new System.Drawing.Size(251, 20);
+            this.textTrivetCount.TabIndex = 27;
+            // 
+            // TrivetCount
+            // 
+            this.TrivetCount.AutoSize = true;
+            this.TrivetCount.Location = new System.Drawing.Point(20, 148);
+            this.TrivetCount.Name = "TrivetCount";
+            this.TrivetCount.Size = new System.Drawing.Size(52, 13);
+            this.TrivetCount.TabIndex = 26;
+            this.TrivetCount.Text = "Type (Int)";
+            // 
+            // btnSaveTrivet
+            // 
+            this.btnSaveTrivet.Location = new System.Drawing.Point(288, 323);
+            this.btnSaveTrivet.Name = "btnSaveTrivet";
+            this.btnSaveTrivet.Size = new System.Drawing.Size(79, 45);
+            this.btnSaveTrivet.TabIndex = 11;
+            this.btnSaveTrivet.Text = "Save";
+            this.btnSaveTrivet.UseVisualStyleBackColor = true;
+            this.btnSaveTrivet.Click += new System.EventHandler(this.btnSaveTrivet_Click);
+            // 
+            // btnNewTrivet
+            // 
+            this.btnNewTrivet.Location = new System.Drawing.Point(23, 323);
+            this.btnNewTrivet.Name = "btnNewTrivet";
+            this.btnNewTrivet.Size = new System.Drawing.Size(79, 45);
+            this.btnNewTrivet.TabIndex = 12;
+            this.btnNewTrivet.Text = "New";
+            this.btnNewTrivet.UseVisualStyleBackColor = true;
+            this.btnNewTrivet.Click += new System.EventHandler(this.btnNewTrivet_Click);
+            // 
+            // txtTrivetName
+            // 
+            this.txtTrivetName.Location = new System.Drawing.Point(116, 87);
+            this.txtTrivetName.Name = "txtTrivetName";
+            this.txtTrivetName.Size = new System.Drawing.Size(251, 20);
+            this.txtTrivetName.TabIndex = 6;
+            // 
+            // txtTrivetId
+            // 
+            this.txtTrivetId.Location = new System.Drawing.Point(116, 34);
+            this.txtTrivetId.Name = "txtTrivetId";
+            this.txtTrivetId.ReadOnly = true;
+            this.txtTrivetId.Size = new System.Drawing.Size(40, 20);
+            this.txtTrivetId.TabIndex = 5;
+            // 
+            // labelTrivetName
+            // 
+            this.labelTrivetName.AutoSize = true;
+            this.labelTrivetName.Location = new System.Drawing.Point(20, 90);
+            this.labelTrivetName.Name = "labelTrivetName";
+            this.labelTrivetName.Size = new System.Drawing.Size(65, 13);
+            this.labelTrivetName.TabIndex = 1;
+            this.labelTrivetName.Text = "Trivet Name";
+            // 
+            // labelTrivetId
+            // 
+            this.labelTrivetId.AutoSize = true;
+            this.labelTrivetId.Location = new System.Drawing.Point(20, 37);
+            this.labelTrivetId.Name = "labelTrivetId";
+            this.labelTrivetId.Size = new System.Drawing.Size(45, 13);
+            this.labelTrivetId.TabIndex = 0;
+            this.labelTrivetId.Text = "TrivetID";
+            // 
+            // tabPageCompany
+            // 
+            this.tabPageCompany.Controls.Add(this.btnDeleteCompany);
+            this.tabPageCompany.Controls.Add(this.groupBoxCompany);
+            this.tabPageCompany.Controls.Add(this.twCompany);
+            this.tabPageCompany.Controls.Add(this.labelTreeNodeComapnyName);
+            this.tabPageCompany.Location = new System.Drawing.Point(4, 22);
+            this.tabPageCompany.Name = "tabPageCompany";
+            this.tabPageCompany.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageCompany.Size = new System.Drawing.Size(1162, 589);
+            this.tabPageCompany.TabIndex = 0;
+            this.tabPageCompany.Text = "Company";
+            this.tabPageCompany.UseVisualStyleBackColor = true;
+            // 
+            // btnDeleteCompany
+            // 
+            this.btnDeleteCompany.Location = new System.Drawing.Point(21, 424);
+            this.btnDeleteCompany.Name = "btnDeleteCompany";
+            this.btnDeleteCompany.Size = new System.Drawing.Size(319, 23);
+            this.btnDeleteCompany.TabIndex = 3;
+            this.btnDeleteCompany.Text = "Delete";
+            this.btnDeleteCompany.UseVisualStyleBackColor = true;
+            this.btnDeleteCompany.Click += new System.EventHandler(this.btnDeleteCompany_Click);
+            // 
+            // groupBoxCompany
+            // 
+            this.groupBoxCompany.Controls.Add(this.btnSaveCompany);
+            this.groupBoxCompany.Controls.Add(this.btnNewCompany);
+            this.groupBoxCompany.Controls.Add(this.txtCompanySize);
+            this.groupBoxCompany.Controls.Add(this.txtCompanyName);
+            this.groupBoxCompany.Controls.Add(this.txtCompanyId);
+            this.groupBoxCompany.Controls.Add(this.labelCompanyCount);
+            this.groupBoxCompany.Controls.Add(this.labelCompanyName);
+            this.groupBoxCompany.Controls.Add(this.labelCompanyID);
+            this.groupBoxCompany.Location = new System.Drawing.Point(371, 44);
+            this.groupBoxCompany.Name = "groupBoxCompany";
+            this.groupBoxCompany.Size = new System.Drawing.Size(401, 411);
+            this.groupBoxCompany.TabIndex = 2;
+            this.groupBoxCompany.TabStop = false;
+            this.groupBoxCompany.Text = "New Company";
+            // 
+            // btnSaveCompany
+            // 
+            this.btnSaveCompany.Location = new System.Drawing.Point(274, 331);
+            this.btnSaveCompany.Name = "btnSaveCompany";
+            this.btnSaveCompany.Size = new System.Drawing.Size(79, 45);
+            this.btnSaveCompany.TabIndex = 3;
+            this.btnSaveCompany.Text = "Save";
+            this.btnSaveCompany.UseVisualStyleBackColor = true;
+            this.btnSaveCompany.Click += new System.EventHandler(this.btnSaveCompany_Click);
+            // 
+            // btnNewCompany
+            // 
+            this.btnNewCompany.Location = new System.Drawing.Point(17, 331);
+            this.btnNewCompany.Name = "btnNewCompany";
+            this.btnNewCompany.Size = new System.Drawing.Size(79, 45);
+            this.btnNewCompany.TabIndex = 4;
+            this.btnNewCompany.Text = "New";
+            this.btnNewCompany.UseVisualStyleBackColor = true;
+            this.btnNewCompany.Click += new System.EventHandler(this.btnNewCompany_Click);
+            // 
+            // txtCompanySize
+            // 
+            this.txtCompanySize.Location = new System.Drawing.Point(102, 138);
+            this.txtCompanySize.Name = "txtCompanySize";
+            this.txtCompanySize.Size = new System.Drawing.Size(251, 20);
+            this.txtCompanySize.TabIndex = 8;
+            // 
+            // txtCompanyName
+            // 
+            this.txtCompanyName.Location = new System.Drawing.Point(102, 87);
+            this.txtCompanyName.Name = "txtCompanyName";
+            this.txtCompanyName.Size = new System.Drawing.Size(251, 20);
+            this.txtCompanyName.TabIndex = 1;
+            // 
+            // txtCompanyId
+            // 
+            this.txtCompanyId.Location = new System.Drawing.Point(102, 34);
+            this.txtCompanyId.Name = "txtCompanyId";
+            this.txtCompanyId.ReadOnly = true;
+            this.txtCompanyId.Size = new System.Drawing.Size(40, 20);
+            this.txtCompanyId.TabIndex = 0;
+            // 
+            // labelCompanyCount
+            // 
+            this.labelCompanyCount.AutoSize = true;
+            this.labelCompanyCount.Location = new System.Drawing.Point(20, 141);
+            this.labelCompanyCount.Name = "labelCompanyCount";
+            this.labelCompanyCount.Size = new System.Drawing.Size(82, 13);
+            this.labelCompanyCount.TabIndex = 3;
+            this.labelCompanyCount.Text = "Company Count";
+            // 
+            // labelCompanyName
+            // 
+            this.labelCompanyName.AutoSize = true;
+            this.labelCompanyName.Location = new System.Drawing.Point(20, 90);
+            this.labelCompanyName.Name = "labelCompanyName";
+            this.labelCompanyName.Size = new System.Drawing.Size(82, 13);
+            this.labelCompanyName.TabIndex = 1;
+            this.labelCompanyName.Text = "Company Name";
+            // 
+            // labelCompanyID
+            // 
+            this.labelCompanyID.AutoSize = true;
+            this.labelCompanyID.Location = new System.Drawing.Point(20, 37);
+            this.labelCompanyID.Name = "labelCompanyID";
+            this.labelCompanyID.Size = new System.Drawing.Size(65, 13);
+            this.labelCompanyID.TabIndex = 0;
+            this.labelCompanyID.Text = "Compnay ID";
+            // 
+            // twCompany
+            // 
+            this.twCompany.Location = new System.Drawing.Point(21, 44);
+            this.twCompany.Name = "twCompany";
+            this.twCompany.ShowLines = false;
+            this.twCompany.ShowPlusMinus = false;
+            this.twCompany.ShowRootLines = false;
+            this.twCompany.Size = new System.Drawing.Size(320, 368);
+            this.twCompany.TabIndex = 1;
+            // 
+            // labelTreeNodeComapnyName
+            // 
+            this.labelTreeNodeComapnyName.AutoSize = true;
+            this.labelTreeNodeComapnyName.Location = new System.Drawing.Point(20, 20);
+            this.labelTreeNodeComapnyName.Name = "labelTreeNodeComapnyName";
+            this.labelTreeNodeComapnyName.Size = new System.Drawing.Size(59, 13);
+            this.labelTreeNodeComapnyName.TabIndex = 0;
+            this.labelTreeNodeComapnyName.Text = "Companies";
+            // 
+            // tabControlTriWeight
+            // 
+            this.tabControlTriWeight.Controls.Add(this.tabPageCompany);
+            this.tabControlTriWeight.Controls.Add(this.tabPageTrivet);
+            this.tabControlTriWeight.Controls.Add(this.tabPageData);
+            this.tabControlTriWeight.Controls.Add(this.tabPageBackUp);
+            this.tabControlTriWeight.Location = new System.Drawing.Point(20, 20);
+            this.tabControlTriWeight.Name = "tabControlTriWeight";
+            this.tabControlTriWeight.SelectedIndex = 0;
+            this.tabControlTriWeight.Size = new System.Drawing.Size(1170, 615);
+            this.tabControlTriWeight.TabIndex = 0;
+            // 
+            // labelShowCompanyName
+            // 
+            this.labelShowCompanyName.AutoSize = true;
+            this.labelShowCompanyName.Location = new System.Drawing.Point(297, 25);
+            this.labelShowCompanyName.Name = "labelShowCompanyName";
+            this.labelShowCompanyName.Size = new System.Drawing.Size(82, 13);
+            this.labelShowCompanyName.TabIndex = 24;
+            this.labelShowCompanyName.Text = "Company Name";
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1202, 647);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.tabControlTriWeight);
             this.Name = "MainForm";
-            this.Text = "WishList - MainForm";
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage4.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
-            this.groupBox8.ResumeLayout(false);
-            this.groupBox8.PerformLayout();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.tabControl1.ResumeLayout(false);
+            this.Text = " ";
+            this.tabPageBackUp.ResumeLayout(false);
+            this.tabPageData.ResumeLayout(false);
+            this.tabPageData.PerformLayout();
+            this.groupBoxData.ResumeLayout(false);
+            this.groupBoxData.PerformLayout();
+            this.tabPageTrivet.ResumeLayout(false);
+            this.tabPageTrivet.PerformLayout();
+            this.groupBoxTrivet.ResumeLayout(false);
+            this.groupBoxTrivet.PerformLayout();
+            this.tabPageCompany.ResumeLayout(false);
+            this.tabPageCompany.PerformLayout();
+            this.groupBoxCompany.ResumeLayout(false);
+            this.groupBoxCompany.PerformLayout();
+            this.tabControlTriWeight.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.CheckBox chkUserPremium;
-        private System.Windows.Forms.CheckBox chkUserMaster;
-        private System.Windows.Forms.TextBox txtUserLastName;
         private System.Windows.Forms.TextBox txtEventLocation;
-        private System.Windows.Forms.TextBox txtUserSkin;
-        private System.Windows.Forms.TabPage tabPage4;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label74;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.GroupBox groupBox8;
-        private System.Windows.Forms.TextBox txtEventAddGuest;
-        private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.TreeView twEventGuests;
-        private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.CheckBox chkEventActive;
-        private System.Windows.Forms.Button btnEventNew;
-        private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.Button btnEventWishSave;
-        private System.Windows.Forms.TreeView twEventWishlist;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.DateTimePicker dtpEventDate;
-        private System.Windows.Forms.TextBox txtEventName;
-        private System.Windows.Forms.TextBox txtEventId;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Button btnWishSave;
-        private System.Windows.Forms.Button btnWishNew;
-        private System.Windows.Forms.TextBox txtWishURL;
-        private System.Windows.Forms.TextBox txtWishShop;
-        private System.Windows.Forms.TextBox txtWishName;
-        private System.Windows.Forms.TextBox txtWishId;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TreeView twWishItems;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.Button btnUserDelete;
-        private System.Windows.Forms.TreeView twUsers;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label75;
-        private System.Windows.Forms.Button btnUserSave;
-        private System.Windows.Forms.Button btnUserNew;
-        private System.Windows.Forms.TextBox txtUserName;
-        private System.Windows.Forms.TextBox txtUserId;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.Button btnDelete;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button btnSave;
-        private System.Windows.Forms.Button btnNew;
-        private System.Windows.Forms.TextBox txtFamilyCreated;
-        private System.Windows.Forms.TextBox txtFamilyName;
-        private System.Windows.Forms.TextBox txtFamilyId;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TreeView twFamily;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TabPage tabPageBackUp;
+        private System.Windows.Forms.TabPage tabPageData;
+        private System.Windows.Forms.GroupBox groupBoxData;
+        private System.Windows.Forms.Label labelDataId;
+        private System.Windows.Forms.Button btnDataSave;
+        private System.Windows.Forms.Button btnNewData;
+        private System.Windows.Forms.TextBox txtDataState;
+        private System.Windows.Forms.TextBox txtDataWeight;
+        private System.Windows.Forms.TextBox txtDataTime;
+        private System.Windows.Forms.TextBox txtDataId;
+        private System.Windows.Forms.Label labelDataState;
+        private System.Windows.Forms.Label labelDataWeight;
+        private System.Windows.Forms.Label labelDataTime;
+        private System.Windows.Forms.TreeView twDataItems;
+        private System.Windows.Forms.Label labelData;
+        private System.Windows.Forms.TabPage tabPageTrivet;
+        private System.Windows.Forms.Button btnTrivetDelete;
+        private System.Windows.Forms.TreeView twTrivet;
+        private System.Windows.Forms.Label labelTreeNodeTrivetName;
+        private System.Windows.Forms.GroupBox groupBoxTrivet;
+        private System.Windows.Forms.TextBox textTrivetCount;
+        private System.Windows.Forms.Label TrivetCount;
+        private System.Windows.Forms.Button btnSaveTrivet;
+        private System.Windows.Forms.Button btnNewTrivet;
+        private System.Windows.Forms.TextBox txtTrivetName;
+        private System.Windows.Forms.TextBox txtTrivetId;
+        private System.Windows.Forms.Label labelTrivetName;
+        private System.Windows.Forms.Label labelTrivetId;
+        private System.Windows.Forms.TabPage tabPageCompany;
+        private System.Windows.Forms.Button btnDeleteCompany;
+        private System.Windows.Forms.GroupBox groupBoxCompany;
+        private System.Windows.Forms.Button btnSaveCompany;
+        private System.Windows.Forms.Button btnNewCompany;
+        private System.Windows.Forms.TextBox txtCompanySize;
+        private System.Windows.Forms.TextBox txtCompanyName;
+        private System.Windows.Forms.TextBox txtCompanyId;
+        private System.Windows.Forms.Label labelCompanyCount;
+        private System.Windows.Forms.Label labelCompanyName;
+        private System.Windows.Forms.Label labelCompanyID;
+        private System.Windows.Forms.TreeView twCompany;
+        private System.Windows.Forms.Label labelTreeNodeComapnyName;
+        private System.Windows.Forms.TabControl tabControlTriWeight;
+        private System.Windows.Forms.Label labeDataTrivetID;
+        private System.Windows.Forms.Label labelDataCompanyId;
+        private System.Windows.Forms.TextBox textDataTrivetId;
+        private System.Windows.Forms.DateTimePicker dateTimePickerBackUp;
+        private System.Windows.Forms.Button buttonSearchData;
+        private System.Windows.Forms.TextBox textBoxDataSearch;
+        private System.Windows.Forms.Label labelDataSearch;
+        private System.Windows.Forms.TextBox textBoxDataCompanyId;
+        private System.Windows.Forms.Label labelDateTime;
+        private System.Windows.Forms.Label labelShowCompanyName;
     }
 }
 

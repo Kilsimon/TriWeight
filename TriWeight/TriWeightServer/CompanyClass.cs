@@ -48,6 +48,45 @@ namespace BachelorWishList
             return tempList;
         }
 
+        public static List<CompanyClass> GetAllCompanyWithName(String S)
+        {
+            List<CompanyClass> tempList = new List<CompanyClass>();
+            SqlConnection conn = new SqlConnection(SetUpClass._dbcon);
+            try
+            {
+                SqlCommand comm = new SqlCommand("SELECT * FROM " + _sqltable + " Where CompanyName='" + S + "'", conn);
+                //  SqlCommand comm = new SqlCommand("SELECT * FROM Users", conn);
+                conn.Open();
+                List<string> res = new List<string>();
+                SqlDataReader sr = comm.ExecuteReader();
+
+                while (sr.Read())
+                {
+
+                    for (int i = 0; i < sr.FieldCount; i++) //FieldCount - Gets the number of columns in the current row
+                    {
+                        string s = "";
+                        s += (sr.GetValue(i));
+                        res.Add(s);
+                    }
+                    tempList.Add(new CompanyClass(res));
+                    res.Clear();
+                }
+
+                conn.Close();
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("{0} Exception caught.", ex.Message);
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return tempList;
+        }
+
         public static CompanyClass GetCompanyByCompanyID(int CompanyID)
         {
             SqlConnection conn = new SqlConnection(SetUpClass._dbcon);
@@ -92,10 +131,28 @@ namespace BachelorWishList
             return res;
         }
 
+        public static String GetCompanyNameByCompanyIDAsString(int CompanyID)
+        {
+            SqlConnection conn = new SqlConnection(SetUpClass._dbcon);
+            SqlCommand comm = new SqlCommand("SELECT * FROM " + _sqltable + " WHERE CompanyID=" + CompanyID.ToString(), conn);
+            conn.Open();
+            String res = "";
+            SqlDataReader sr = comm.ExecuteReader();
+
+            while (sr.Read())
+            {
+                string s = "";
+                s += (sr.GetValue(1));
+                res = s;
+            }
+            conn.Close();
+            return res;
+        }
+
 
         #region --- Properties  ---
 
-        private int _companyID = -1; // The ID of the Event (Primary Key)
+        private int _companyID = 1; // The ID of the Event (Primary Key)
         public int CompanyID { get { return _companyID; } set { _companyID = value; } }
 
         private string _companyName = ""; // The ID of the Event (Primary Key)

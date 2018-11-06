@@ -10,6 +10,45 @@ namespace BachelorWishList
     {
         public static string _sqltable = "Trivet";
 
+        public static List<TrivetClass> GetAllTrivet()
+        {
+            List<TrivetClass> tempList = new List<TrivetClass>();
+            SqlConnection conn = new SqlConnection(SetUpClass._dbcon);
+            try
+            {
+                SqlCommand comm = new SqlCommand("SELECT * FROM " + _sqltable, conn);
+                //  SqlCommand comm = new SqlCommand("SELECT * FROM Users", conn);
+                conn.Open();
+                List<string> res = new List<string>();
+                SqlDataReader sr = comm.ExecuteReader();
+
+                while (sr.Read())
+                {
+
+                    for (int i = 0; i < sr.FieldCount; i++) //FieldCount - Gets the number of columns in the current row
+                    {
+                        string s = "";
+                        s += (sr.GetValue(i));
+                        res.Add(s);
+                    }
+                    tempList.Add(new TrivetClass(res));
+                    res.Clear();
+                }
+
+                conn.Close();
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("{0} Exception caught.", ex.Message);
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return tempList;
+        }
+
         public static TrivetClass GetCompanyByCompanyID(int TrivetID)
         {
             SqlConnection conn = new SqlConnection(SetUpClass._dbcon);

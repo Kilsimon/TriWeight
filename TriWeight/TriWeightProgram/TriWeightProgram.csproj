@@ -92,7 +92,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BachelorWishList\TriWeightServer.csproj">
+    <ProjectReference Include="..\TriWeightServer\TriWeightServer.csproj">
       <Project>{253bd386-9d3c-46a2-92b9-5d61dc6df4a8}</Project>
       <Name>TriWeightServer</Name>
     </ProjectReference>
